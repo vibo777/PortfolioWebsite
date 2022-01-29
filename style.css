@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global Css */
+.section{
+    padding: 5rem 1.5rem;
+}
+h1,h2{
+    font-family: "eurostile", sans-serif;
+    font-weight: 800;
+}
+
+
+/* End of global css */
+
+
+/* Header section */
+.header{
+    height: 65px;
+    width: 100%;
+    background-color: #7510F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.profile-name{
+    color: white;
+    font-size: 1.75rem;
+    font-family: "Parisienne",cursive;
+    line-height: 1.4;
+    cursor: pointer;
+}
+.header-menu{
+    color: white;
+    display:inline-block;
+    margin-left: 10px; 
+    text-decoration: none;
+
+}
+.menu{
+    padding: 10px 16px;
+    color: #fff;
+    position: relative;   
+    margin: 0.05rem 0.25rem;
+    transition: all .5s ease-in-out;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+.menu:hover{
+    color: black;
+    background-color: white;
+}
+
+
+/* Banner section */
+
+.banner{
+    height: 840px;
+    width: 100%;
+    background-color: #fff;
+    padding: 3rem 1.5rem;
+    
+}
+.banner-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1.5rem;
+}
+.banner-title{
+    font-family: "eurostile", sans-serif;
+    font-size: 2.5rem !important;
+    font-weight: 800;
+    line-height: 1.125;
+    color: #141c3a;
+    margin-bottom: 1.5rem;
+    line-height: 1.125;
+    font-size: 40px;
+    /* text-align: center; */
+}
+.subtitle{
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    /* text-align: center; */
+    font-size: 1.25rem;
+    color: rgba(10, 10, 10, 0.9);
+}
+.avatar{
+    height: 230px;
+    width: 230px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* About me section */
+.about{
+    height: 600px;
+    width: 100%;
+    background-color: #7510F7;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px; 
+ 
+}
+.about-content{
+    height: 264px;
+    width: 695px;
+    /* background-color: white; */
+    /* color:black; */
+    text-align: center;
+    /* padding-top: 100px; */
+    color: #fff;
+}
+.about-title{
+    font-size: 26px;
+    line-height: 1.125;
+    margin: 24px;
+
+}
+.about-subtitle{
+    font-family: "europa", sans-serif;
+    font-weight: 250;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    /* text-align: center; */
+    font-size: 1.25rem;
+    color: #fff !important;
+}
+
+
+
+
