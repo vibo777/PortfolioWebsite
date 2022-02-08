@@ -179,4 +179,24 @@ h1,h2{
     border-radius: 10px;
 }
 
-
+/* Contact section */
+.contact{
+    height: 300px;
+    width: 100%;
+    background-color: #7510F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .fab{
+    color: #fff;
+    transform: scale(2);
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+} */
+.contact-container{
+    height: 70%;
+    width: 80%;
+    background-color: white;
+     
+}
