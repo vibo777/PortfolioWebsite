@@ -187,6 +187,16 @@ h1,h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+}
+.contact-title{
+    margin-top: 1.5rem;
+    font-size: 32px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.125;
+    margin-bottom: 1.5rem;
+     
 }
 /* .fab{
     color: #fff;
@@ -197,6 +207,14 @@ h1,h2{
 .contact-container{
     height: 70%;
     width: 80%;
-    background-color: white;
-     
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+}
+.social-platforms > a {
+    margin: 25px 35px ;
+    text-decoration: none;
 }
