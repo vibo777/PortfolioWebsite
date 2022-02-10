@@ -178,8 +178,12 @@ h1,h2{
 .card-container > .card{
     height: 100%;
     width: 32%;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 10px;
+}
+.card > img{
+    height: 100%;
+    width: 100%;
 }
 
 /* Contact section */
