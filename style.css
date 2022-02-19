@@ -33,7 +33,7 @@ h1,h2{
 .profile-name{
     color: white;
     font-size: 1.75rem;
-    font-family: "Parisienne",cursive;
+    /* font-family: "Parisienne",cursive; */
     line-height: 1.4;
     cursor: pointer;
 }
@@ -53,6 +53,7 @@ h1,h2{
     overflow: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    font-weight: 700;
 }
 .menu:hover{
     color: black;
@@ -144,7 +145,7 @@ h1,h2{
 
 /* my work section */
 .mywork{
-    height: 700px;
+    height: 1000px;
     width: 100%;
     background-color: #fff;
     display: flex;
@@ -169,18 +170,19 @@ h1,h2{
 .card-container{
     margin-top: 4rem;
     width: 90%;
-    height: 275px;
+    height: 800px;
     /* background-color: #7510F7; */
     display: flex;
-    justify-content: space-between;
-
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 .card{
-    height: 100%;
+    height: 47%;
     width: 32%;
-    /* background-color:skyblue; */
+    /* background-color: lightgray; */
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 10px;
 }
 .card > img{
     /*  object-fit: cover;  this property insert image in proper quality resolution */
@@ -190,7 +192,9 @@ h1,h2{
     border-radius: 15px;
 }
 .card > img:hover{
-    translate: 1;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s;
 }
 
 /* Contact section */
