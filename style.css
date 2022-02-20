@@ -144,6 +144,10 @@ h1,h2{
 }
 
 /* skills section  */
+.main-container{
+    display: flex;
+    
+}
 .skills{
     height: 800px;
     width: 100%;
@@ -203,7 +207,38 @@ h1,h2{
     transform: scale(1.5);
     transition: .5s;
 }
+.experience-container{
+    height: 150px;
+    width: 50%;
+    /* background-color: #fff; */
+    margin: 150px 25px;
+}
 
+.experience-container > .details{
+    height: 100%;
+    width: 50%;
+    /* background-color:lightblue; */
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.767) 0px 5px 15px;
+}
+.company-title{
+    font-family: "eurostile", sans-serif;
+    font-weight: 800;
+    color: #141c3a;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+.job-post,.job-duration{
+    font-family: "europa", sans-serif;
+    font-size: 18px;
+    line-height:20px ;
+    color: #141c3a;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
 
 /* my work section */
 .mywork{
