@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
+
+    <!-- Back to top button  -->
+    <div class="btt" id="btt">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </div>
+
     <!-- Header Section-->
     <section id="header">
       <div class="header">
@@ -144,6 +150,34 @@
       </footer>
     </section>
 
+    <script>
+
+       // code for back to top click functionality 
+
+      let scrollValue;
+
+      function scrollToTop(){
+        
+        window.scrollTo(0,scrollValue);
+        if(scrollValue > 0){
+            scrollValue-=200; 
+        }
+        else{
+            cancelAnimationFrame(anim);
+        }
+
+        let anim = requestAnimationFrame(scrollToTop);
+
+      }
+
+      document.getElementById('btt').addEventListener("click",function(){
+
+          scrollValue = window.pageYOffset;
+          scrollToTop();
+      })
+
+
+    </script>
 
   </body>
 </html>

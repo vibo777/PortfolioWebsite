@@ -19,6 +19,28 @@ h1,h2{
 
 /* End of global css */
 
+/* back to top button */
+.btt{
+    height: 60px;
+    width: 60px;
+    color: #fff;
+    border-radius: 50%;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    margin-left: 93%;
+    margin-top: 85vh;
+    opacity: .6;
+    transform: 15vh;
+    cursor: pointer;
+}
+.btt:hover{
+    opacity: 1;
+}
+
 
 /* Header section */
 .header{
@@ -29,6 +51,9 @@ h1,h2{
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
+    position: fixed;
+    /* box-shadow: 0 1px 3px #d5d5d5; */
+    box-shadow: rgba(0, 0, 0, 0.767) 0px 1px 3px;
 }
 .profile-name{
     color: white;
