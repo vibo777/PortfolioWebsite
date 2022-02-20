@@ -143,6 +143,68 @@ h1,h2{
     color: #fff !important;
 }
 
+/* skills section  */
+.skills{
+    height: 800px;
+    width: 100%;
+    background-color: lightgray;
+}
+.skills-title{
+    color: #141c3a;
+    font-size: 32px;
+    line-height: 1.125;
+    /* margin-top: 4rem; */
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.skills-container{
+    height: 500px;
+    width: 45%;
+    /* background-color:#fff; */
+    margin-left: 75px;
+    /* border-radius: 15px; */
+    border-right: 3px solid darkgray;
+   
+}
+.front-end{
+    height: 166px;
+    width: 100%;
+    /* background-color: #7510F7; */
+    border-radius: 15px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+}
+.back-end{
+    height: 166px;
+    width: 100%;
+    /* background-color:rgb(230, 105, 105); */
+    border-radius: 15px;
+    padding: 30px 20px;
+    display: flex;
+}
+.tools{
+    height: 166px;
+    width: 100%;
+    /* background-color:rgb(97, 26, 26); */
+    border-radius: 15px;
+    padding: 30px 20px;
+    /* display: flex; */
+    /* justify-content:space-evenly; */
+}
+.tech-img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    transition: transform .2s;
+    box-shadow: rgba(0, 0, 0, 0.767) 0px 5px 15px;
+} 
+.tech-img:hover{
+    transform: scale(1.5);
+    transition: .5s;
+}
+
+
 /* my work section */
 .mywork{
     height: 1000px;
@@ -153,7 +215,7 @@ h1,h2{
     align-items: center;
 }
 .mywork-title{
-    margin-top: 4rem;
+    /* margin-top: 4rem; */
     font-size: 32px;
     color: #141c3a;
     font-weight: 800;
