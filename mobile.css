@@ -8,6 +8,11 @@
     display: inline-block;
 }    
 
+/* back to top button */
+.btt{
+    margin-left: 82%;
+}
+
     
 /* css for banner */
 .banner{
@@ -37,6 +42,9 @@
 }
 
 /* css for Skills section  */
+.skills{
+    height: 1000px;
+}
 .skills-container{
     height: 500px;
     width: 45%;
@@ -60,6 +68,42 @@
 }
 .tools > img{
     margin-left: 15px !important; 
+}
+.experience-container{
+    height: 260px;
+    width: 90%;
+    margin: 25px 25px;
+    display: flex;
+    border-top: 3px solid darkgray;
+}
+.experience-container > .details{
+    height: 60%;
+    width:100%;
+
+} 
+
+/* css for recent work  */
+.mywork{
+    height: 2500px;
+}
+.mywork-subitle{
+    text-align: center;
+}
+.card-container{
+    display: block;
+}
+.card{
+    height: 40%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/* Css for Footer */
+/* .contact{
+    height: 400px;
+} */
+.contact-container{
+    width: 100%;
 }
 
 
