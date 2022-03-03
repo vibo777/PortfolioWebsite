@@ -1,0 +1,66 @@
+@media (max-width:560px){
+
+/* to hide elements in mobile */
+.header{
+    display: none;
+}
+.mob,.main-container{
+    display: inline-block;
+}    
+
+    
+/* css for banner */
+.banner{
+    height: 822px;
+}
+.banner-title{
+    font-size: 30px;
+     
+}
+.banner-details{
+    text-align: center;
+}
+.setup-bg{
+    width: 99%;
+} 
+
+/* css for about me section */
+.about{
+    height: 460px;
+    padding-top: 100px;
+} 
+.about-title{
+    font-size: 22px;
+}
+.about-subtitle{
+    font-size: 1.25rem; 
+}
+
+/* css for Skills section  */
+.skills-container{
+    height: 500px;
+    width: 45%;
+    /* background-color: #fff; */
+    margin-left: 75px;
+    /* border-radius: 15px; */
+    border-right: none;
+}
+.front-end{
+    width: 150%;
+}
+.back-end{
+    margin-left: -100px;
+}
+.tools{
+    display: flex;
+    margin-left: none;
+}
+.tech-img{
+    margin-left: 15px !important; 
+}
+.tools > img{
+    margin-left: 15px !important; 
+}
+
+
+}
