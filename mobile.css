@@ -1,4 +1,4 @@
-@media (max-width:600px)
+@media (max-width:560px)
 {
 
 /* to hide elements in mobile */
@@ -11,13 +11,13 @@
 
 /* back to top button */
 .btt{
-    margin-left: 82%;
+    margin-left: 76%;
 }
 
     
 /* css for banner */
 .banner{
-    height: 822px;
+    height: 780px;
 }
 .banner-title{
     font-size: 30px;
@@ -32,7 +32,7 @@
 
 /* css for about me section */
 .about{
-    height: 460px;
+    height: 500px;
     padding-top: 100px;
 } 
 .about-title{
@@ -43,29 +43,38 @@
 }
 
 /* css for Skills section  */
+.main-container{
+    display: inline-block;
+}
+
 .skills{
-    height: 1000px;
+    height: 2200px;
 }
 .skills-container{
-    height: 500px;
-    width: 45%;
+    height: 1700px;
+    width: 60%;
     /* background-color: #fff; */
     margin-left: 75px;
-    /* border-radius: 15px; */
+    border-radius: 15px;
     border-right: none;
 }
 .front-end{
     width: 150%;
+    display: inline-block;
 }
 .back-end{
-    margin-left: -100px;
+    display: block;
 }
 .tools{
-    display: flex;
-    margin-left: none;
+    display: inline-block;
+    /* background-color: red; */
+    margin-top: 550px;
 }
 .tech-img{
+    height: 150px;
+    width: 150px;
     margin-left: 15px !important; 
+    margin-bottom: 20px;
 }
 .tools > img{
     margin-left: 15px !important; 
@@ -74,8 +83,8 @@
     height: 260px;
     width: 90%;
     margin: 25px 25px;
-    display: flex;
-    border-top: 3px solid darkgray;
+    display: block;
+    /* border-top: 3px solid darkgray; */
 }
 .experience-container > .details{
     height: 60%;
@@ -85,13 +94,20 @@
 
 /* css for recent work  */
 .mywork{
-    height: 2500px;
+    height: 2150px;
 }
 .mywork-subitle{
     text-align: center;
 }
 .card-container{
     display: block;
+    margin-top: 4rem;
+    width: 95%;
+    height: 650px;
+    /* background-color: #7510F7; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .card{
     height: 40%;
@@ -105,6 +121,10 @@
 } */
 .contact-container{
     width: 100%;
+}
+.social-platforms > a {
+    margin: 25px 20px;
+    text-decoration: none;
 }
 
 
