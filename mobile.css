@@ -2,9 +2,9 @@
 {
 
 /* to hide elements in mobile */
-.header{
+/* .header-menu{
     display: none;
-}
+} */
 .mob,.main-container{
     display: inline-block;
 }    
@@ -15,6 +15,47 @@
 }
 
     
+/* css for header */
+.header{
+    height: 55px;
+    padding: 10px 32px;
+     
+}
+.checkbtn{
+    display: block;
+} 
+.profile-name{
+    font-size: 15px;
+    /* background-color: black; */
+    padding: 5px 10px;
+}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #2c3e50;
+    top: 55px;
+    left:0;
+    text-align: center;
+    transition: all .5s;
+}
+.menu{
+    display: block;
+    margin: 10px 0;
+    line-height: 30px;
+    font-size: 20px;
+}
+.menu:hover,.menu:active{
+    background: none;
+    color: #0082e6;
+}
+#check:checked ~ ul{
+    left: 0;
+}
+
+
+
+
 /* css for banner */
 .banner{
     height: 780px;
@@ -116,9 +157,7 @@
 }
 
 /* Css for Footer */
-/* .contact{
-    height: 400px;
-} */
+
 .contact-container{
     width: 100%;
 }
