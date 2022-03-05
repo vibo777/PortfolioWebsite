@@ -2,9 +2,9 @@
 {
 
 /* to hide elements in mobile */
-/* .header-menu{
+.header-menu{
     display: none;
-} */
+}
 .mob,.main-container{
     display: inline-block;
 }    
