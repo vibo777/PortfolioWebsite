@@ -2,9 +2,9 @@
 {
 
 /* to hide elements in mobile */
-.header-menu{
+/* .nav-menu{
     display: none;
-}
+} */
 .mob,.main-container{
     display: inline-block;
 }    
@@ -32,17 +32,18 @@
 .hamburger.active .bar:nth-child(2){
     opacity: 0;
 }
-.hamburger.active .bar:nth-child(2){
+.hamburger.active .bar:nth-child(1){
     transform: translateY(8px) rotate(45deg);
 }
 .hamburger.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-45deg);
 }
-.header-menu{
+.nav-menu{
     position: fixed;
-    left:0;
-    top: 70px;
+    left:-100%;
+    top: 55px;
     gap: 0;
+    display: flex;
     flex-direction: column;
     background-color: #262626;
     width: 100%;
@@ -52,10 +53,10 @@
 .menu{
     margin: 16px 0;
 }
-.header-menu:active{
+.nav-menu:active{
     left: 0;
+    display: block;
 }
-
 
 
 /* css for banner */

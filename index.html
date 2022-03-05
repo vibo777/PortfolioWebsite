@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./mobile.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./script.js">  
-
+    <!-- <script src="script.js"></script> -->
   </head>
   <body>
 
@@ -26,19 +25,43 @@
           <h1 class="profile-name">Vaibhav Bunde</h1>
         </div>
         <div class="right-section">
-          <ul class="header-menu">
+          <!-- Experimental code -->
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a class="menu" href="#banner">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu" href="#skills">Skill</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="menu" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+
+
+          <!-- Actual code -->
+          <!-- <ul class="header-menu" id="header-menu">
             <a class="menu" href="#banner">Home</a>
             <a class="menu" href="#about">About</a>
             <a class="menu" href="#skills">Skill</a>
             <a class="menu" href="#work">Work</a>
             <a class="menu" href="#contact">Contact</a>
-          </ul>
-          <div class="hamburger">
-            <span class="bars"></span>
-            <span class="bars"></span>
-            <span class="bars"></span>
-          </div>
-
+          </ul> -->
+          
         </div>
       </div>
     </section>
@@ -160,32 +183,48 @@
       </footer>
     </section>
 
-    <!-- <script>
+    <script>
 
        // code for back to top click functionality 
+      //  let scrollValue;
 
-      let scrollValue;
-
-      function scrollToTop(){
+      // function scrollToTop(){
         
-        window.scrollTo(0,scrollValue);
-        if(scrollValue > 0){
-            scrollValue-=500; 
-        }
-        else{
-            cancelAnimationFrame(anim);
-        }
+      //   window.scrollTo(0,scrollValue);
+      //   if(scrollValue > 0){
+      //       scrollValue-=500; 
+      //   }
+      //   else{
+      //       cancelAnimationFrame(anim);
+      //   }
 
-        let anim = requestAnimationFrame(scrollToTop);
+      //   let anim = requestAnimationFrame(scrollToTop);
 
-      }
+      // }
 
-      document.getElementById('btt').addEventListener("click",function(){
+      // document.getElementById('btt').addEventListener("click",function(){
 
-          scrollValue = window.pageYOffset;
-          scrollToTop();
+      //     scrollValue = window.pageYOffset;
+      //     scrollToTop();
+      // })
+
+      const hamburger = document.querySelector(".hamburger");
+      const navmenu = document.querySelector(".nav-menu");
+
+      hamburger.addEventListener("click", () => {
+
+          hamburger.classList.toggle("active");
+          navmenu.classList.toggle("active");
       })
-    </script> -->
+
+      document.querySelectorAll(".nav-link").forEach(n => n.
+      addEventListener("click" ,()=>{
+         hamburger.classList.remove("active"); 
+         navmenu.classList.remove("active");
+      }))
+
+ 
+    </script>
 
   </body>
 </html>

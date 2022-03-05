@@ -63,13 +63,13 @@ a.active,a:hover{
     display: none;
     cursor: pointer;
 } 
-.bars{
+.bar{
     display: block;
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3 ease-in-out;
-    transition: all 0.3 ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     background-color: white;
 }
 
@@ -87,6 +87,15 @@ a.active,a:hover{
     text-decoration: none;
 
 }
+/* experimental code */
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+}
+
 .menu{
     padding: 10px 16px;
     color: #fff;
