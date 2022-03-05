@@ -59,18 +59,20 @@ a.active,a:hover{
     background: #1b9bff;
     transition: .5s;
 }
-.checkbtn{
-    font-size: 30px;
-    color: white;
-    float: right;
-    line-height: 80px;
+.hamburger{
+    display: none;
     cursor: pointer;
-    display: none;
+} 
+.bars{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3 ease-in-out;
+    transition: all 0.3 ease-in-out;
+    background-color: white;
 }
-#check{
-    display: none;
-}
- 
+
 .profile-name{
     color: white;
     font-size: 1.75rem;
