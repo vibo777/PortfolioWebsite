@@ -40,6 +40,7 @@
 }
 .nav-menu{
     position: fixed;
+    height: 225px;
     left:-100%;
     top: 55px;
     gap: 0;
@@ -52,10 +53,10 @@
 }
 .menu{
     margin: 16px 0;
+    font-weight: 500;
 }
-.nav-menu:active{
+.nav-menu.active{
     left: 0;
-    display: block;
 }
 
 
