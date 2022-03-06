@@ -244,8 +244,8 @@ a.active,a:hover{
     /* background-color:rgb(97, 26, 26); */
     border-radius: 15px;
     padding: 30px 20px;
-    /* display: flex; */
-    /* justify-content:space-evenly; */
+    display: flex;
+    justify-content:space-between;
 }
 .tech-img{
     height: 100px;
@@ -259,7 +259,7 @@ a.active,a:hover{
     transition: .5s;
 }
 .experience-container{
-    height: 150px;
+    height: 170px;
     width: 50%;
     /* background-color: #fff; */
     margin: 150px 25px;
